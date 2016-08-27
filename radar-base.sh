@@ -616,5 +616,5 @@ render_prompt() {
                             -e "$changes_sed" \
                             -e "$local_sed" \
                             -e "$stash_sed" \
-							-e "$git_path_sed"
+                            -e "$git_path_sed"
 }
